@@ -124,6 +124,10 @@ contract Emarket {
             user.location[msg.sender]=location(msg.sender,_latitude,_longitiude)
         }
     }
+ function inc() external{
+     wallet address=[msg.sender].wallet
+}
+
    
     }
     
