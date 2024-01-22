@@ -125,8 +125,9 @@ contract Emarket {
         }
     }
  function inc() external{
-     wallet address=[msg.sender].wallet
+     wallet address=[msg.sender].wallet;
 }
+ 
 
    
     }
